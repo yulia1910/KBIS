@@ -1,5 +1,6 @@
-Angular Mission
----
+### Angular Mission
+======
+
 Introduction
 ---
 
@@ -30,4 +31,8 @@ Highlights
 Attached the example to the screens on the next page.
 
 
-![First page](https://github.com/okigor/angular_mission/blob/master/documentation/pic1.png) "First page")
+![First page](https://github.com/okigor/angular_mission/blob/master/documentation/pic1.png "First page")
+
+![List of tasks](https://github.com/okigor/angular_mission/blob/master/documentation/pic2.png "List of tasks")
+
+![Task edit](https://github.com/okigor/angular_mission/blob/master/documentation/pic2.png "Task edit")
