@@ -30,4 +30,4 @@ Highlights
 Attached the example to the screens on the next page.
 
 
-![First page] (./documentation/pic1.png) "First page"
+[![First page] (./documentation/pic1.png) "First page"]
