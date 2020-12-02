@@ -30,4 +30,4 @@ Highlights
 Attached the example to the screens on the next page.
 
 
-[![First page] (./documentation/pic1.png) "First page"]
+![First page](https://github.com/okigor/angular_mission/blob/master/documentation/pic1.png) "First page")
