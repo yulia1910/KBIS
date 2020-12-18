@@ -2,7 +2,7 @@ import { TodoItem } from './../model';
 import * as moment from 'moment';
 
 
-export const TODO_ITEMS: TodoItem[] = [
+export const TODO_ITEMS: Array<TodoItem> = [
     {
         id: 1,
         done: false,

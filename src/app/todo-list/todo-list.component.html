@@ -1,0 +1,12 @@
+
+<div class="main">
+    <div class="list">
+        <div class="item" [ngClass]="{'isSelected': item.isClicked}" *ngFor="let item of todoItemsForView" (click)="editItem(item)">
+            <div class="text" [ngClass]="{'done': item.done}">{{item.text}}</div>
+            <div><span class="DueDate">DueDate:</span>{{item.dueDate}}</div>
+        </div>
+    </div> 
+    <div class="forms" *ngIf="taskForEdit != null">
+       <app-edit-task [ftask]="taskForEdit" (updateList)="onUpdateList($event)"></app-edit-task>
+    </div>     
+</div>

@@ -4,3 +4,12 @@ export interface TodoItem {
     done: boolean;
     text: string;
 }
+
+export interface TodoItemsForView {
+    id: number;
+    dueDate: string;
+    done: boolean;
+    text: string;
+    isClicked: boolean;
+}
+

@@ -1,0 +1,34 @@
+.main{
+    width: 100%;
+    padding-right: 1%;
+}
+.list{
+    width: 50%;
+    float: left;
+}
+.item {
+    border: 1px solid #00458b;
+    padding: 10px;
+    margin: 20px;
+}
+.text{
+    color: #00458b;
+    font-weight: bold;
+}
+.DueDate{
+    margin-right: 5px ;
+}
+.isSelected{
+     background-color: yellow;
+}
+.forms{
+    width: 49%;
+    float: right;
+    border: 1px solid #00458b;
+    padding: 20px;
+    margin-left: 1%;
+    margin-top: 20px;
+}
+.done{
+    text-decoration: line-through;
+}

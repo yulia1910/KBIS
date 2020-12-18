@@ -4,16 +4,17 @@ import { InMemoryDbService } from 'angular-in-memory-web-api';
 import { TODO_ITEMS } from './todo-items';
 import * as moment from 'moment';
 
-// @Injectable({
-//     providedIn: 'root',
-//   })
+ @Injectable({
+    providedIn: 'root',
+  })
 export class InMemoryTodoService implements InMemoryDbService {
   createDb(): any {
     // tslint:disable-next-line: prefer-const
     let todoitems = TODO_ITEMS;
 
-
-    return { todoitems };
+    return todoitems ;
+    //return TODO_ITEMS;
+    
   }
 
 
